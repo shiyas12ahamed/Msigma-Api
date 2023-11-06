@@ -1,0 +1,74 @@
+body {
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+}
+.courses-heading {
+  color: rgba(4, 0, 255, 0.579);
+  font-size: 30px;
+  text-align: center;
+  font-weight: bolder;
+}
+.courses-subheading {
+  text-align: center;
+  font-size: 15px;
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  margin: 10px;
+  height: 150px;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}
+ 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  align-items: center;
+  justify-content: space-around;
+}
+ 
+.container > div {
+  flex: 40%;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 3px 3px 3px 3px #888888;
+}
+ 
+#heading {
+  text-align: center;
+  color: darkblue;
+  font-weight: 900;
+}
+ 
+#sub-heading {
+  text-align: center;
+  color: grey;
+  font-weight: 100;
+}
+ 
+#btn {
+  padding: 10px;
+  border: 2px solid rgb(27, 27, 129);
+  border-radius: 25px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgba(0, 0, 255, 0.5)
+  );
+}
+ 
+#div-item {
+  padding: 20px;
+}
